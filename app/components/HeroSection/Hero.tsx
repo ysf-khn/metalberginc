@@ -14,10 +14,10 @@ const Hero = ({ scrollToProducts }: Hero) => {
       <div className="absolute inset-0 bg-black opacity-60"></div>
       <div className="relative flex items-center justify-center h-full text-white">
         <div>
-          <h1 className="hidden md:text-6xl font-bold">
+          <h1 className="hidden md:block md:text-6xl font-bold">
             Trusted Manufacturer and Exporter
           </h1>
-          <h1 className="hidden md:text-6xl font-bold">
+          <h1 className="hidden md:block md:text-6xl font-bold">
             of Fine Metal Handicrafts and Home Décor
           </h1>
           <h1 className="md:hidden text-3xl font-bold">
