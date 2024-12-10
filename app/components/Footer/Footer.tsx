@@ -54,15 +54,17 @@ export const Footer = () => {
             <ul className="mt-4 space-y-2">
               <li className="flex items-center">
                 <MapPinIcon className="h-5 w-5 text-blue-400 mr-2" />
-                <span className="text-gray-300">123 Street</span>
+                <span className="text-gray-300">
+                  Prince Road, Harpal Nagar, Moradabad, U.P. (India)
+                </span>
               </li>
               <li className="flex items-center">
                 <PhoneIcon className="h-5 w-5 text-blue-400 mr-2" />
-                <span className="text-gray-300">+1 234 567 890</span>
+                <span className="text-gray-300">+91 97209 99830</span>
               </li>
               <li className="flex items-center">
                 <EnvelopeIcon className="h-5 w-5 text-blue-400 mr-2" />
-                <span className="text-gray-300">contact@metalberg.com</span>
+                <span className="text-gray-300">contact@metalberginc.com</span>
               </li>
             </ul>
           </div>

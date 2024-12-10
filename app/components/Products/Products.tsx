@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React, { forwardRef, useState } from "react";
 
 const categories = [
@@ -7,7 +8,7 @@ const categories = [
     name: "Table Top Planters & Pots",
     description: "Elegant planters for your tabletop decor",
     image: "/MB087bg.png",
-    link: "/table-top-planters-pots",
+    link: "table-top-planters-pots",
   },
   {
     id: 2,
@@ -57,14 +58,15 @@ const Products = forwardRef<HTMLElement>((props, ref) => {
   const [hoveredCardId, setHoveredCardId] = useState<number | null>(null);
 
   return (
-    <section ref={ref} id="products" className="max-w-7xl mx-auto">
+    <section ref={ref} id="products" className="max-w-8xl mx-auto">
       <h1 className="py-8 text-3xl font-bold text-center text-black">
         Our Product Categories
       </h1>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {categories.map((category) => (
-          <div
+          <Link
+            href={`/${category.link}`}
             key={category.id}
             className={`
             h-[450px] flex-shrink-0 m-6 relative overflow-hidden bg-slate-500 rounded-lg shadow-lg 
@@ -145,7 +147,7 @@ const Products = forwardRef<HTMLElement>((props, ref) => {
                 </span>
               </div>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>

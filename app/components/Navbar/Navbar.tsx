@@ -49,7 +49,7 @@ export default function Navbar() {
         </Link>
 
         {/* Centered navbar items */}
-        <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-6 bg-white/10 px-10 py-3 rounded-full backdrop-blur-sm">
+        <div className="absolute left-1/2 transform -translate-x-1/2 flex space-x-6 bg-black/50 px-10 py-3 rounded-full backdrop-blur-sm">
           <a href="#home" className="text-white hover:text-gray-300">
             Home
           </a>
