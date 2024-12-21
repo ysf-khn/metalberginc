@@ -4,27 +4,27 @@ const reviews = [
   {
     name: "Sameer",
     review:
-      "The floor planters I purchased are stunning and have added a whole new level of sophistication to my home. They're sturdy and beautifully designed.",
+      "We ordered 50 floor planters for our hotel chain and they've transformed all our lobby spaces. The bulk pricing was excellent and the quality is consistent across all pieces. Our staff loves how sturdy they are for maintenance.",
   },
   {
     name: "Aisha",
     review:
-      "I've been searching for the perfect hanging planters, and these exceeded my expectations. They bring life to my balcony garden.",
+      "As a landscape designer, I purchased 30 hanging planters for a large residential project. The wholesale process was smooth and every single piece met our quality standards. My client is thrilled with the unified look.",
   },
   {
     name: "Ayan",
     review:
-      "The iron stands I bought are both elegant and durable. It's rare to find something that combines style with functionality so well. I'm beyond satisfied.",
+      "Our restaurant group bought 25 iron stands for our outdoor seating areas. The bulk order arrived perfectly packaged and the volume discount made it a great value. They've held up beautifully across all our locations.",
   },
   {
     name: "Sania",
     review:
-      "The table top vases are sleek, modern, and fit perfectly with my decor. The quality speaks for itself, and I couldn't be happier with my choice.",
+      "Ordered 100 table top vases for our event planning business. The wholesale pricing was competitive and the consistency in design is exactly what we needed. They're perfect for our corporate events.",
   },
   {
     name: "Aryan",
     review:
-      "The floor vases have become a statement piece in my home. They're beautifully crafted, and the attention to detail is remarkable. A truly great find!",
+      "We furnished our entire office complex with 40 floor vases, and the impact is stunning. The bulk purchase process was efficient, and the quantity discount made it possible to outfit all six floors. Every piece has the same high-quality finish.",
   },
 ];
 
