@@ -48,12 +48,12 @@ export default function Navbar() {
   }, [isMenuOpen]);
 
   const navItems = [
-    { href: "#home", label: "Home" },
+    { href: "/#home", label: "Home" },
     { href: "/about-us", label: "About" },
-    { href: "#products", label: "Products" },
+    { href: "/#products", label: "Products" },
     { href: "/why-us", label: "Why Us" },
     { href: "/faq", label: "FAQ" },
-    { href: "#contact", label: "Contact" },
+    { href: "/#contact", label: "Contact" },
   ];
 
   const handleMenuItemClick = () => {
