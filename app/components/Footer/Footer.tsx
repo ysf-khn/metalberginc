@@ -3,11 +3,12 @@ import {
   MapPinIcon,
   PhoneIcon,
 } from "@heroicons/react/24/outline";
+import Link from "next/link";
 import React from "react";
 
 export const Footer = () => {
   return (
-    <footer className="bg-blue-950 text-white">
+    <footer className="bg-blue-950 text-white" id="contact">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div>
@@ -22,30 +23,36 @@ export const Footer = () => {
             <h4 className="text-lg font-semibold">Quick Links</h4>
             <ul className="mt-4 space-y-2">
               <li>
-                <a href="#home" className="text-gray-300 hover:text-blue-400">
+                <Link
+                  href="/#home"
+                  className="text-gray-300 hover:text-blue-400"
+                >
                   Home
-                </a>
+                </Link>
               </li>
               <li>
-                <a
-                  href="#categories"
+                <Link
+                  href="/#products"
                   className="text-gray-300 hover:text-blue-400"
                 >
                   Categories
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#about" className="text-gray-300 hover:text-blue-400">
+                <a
+                  href="/about-us"
+                  className="text-gray-300 hover:text-blue-400"
+                >
                   About Us
                 </a>
               </li>
               <li>
-                <a
-                  href="#contact"
+                <Link
+                  href="/#contact"
                   className="text-gray-300 hover:text-blue-400"
                 >
                   Contact
-                </a>
+                </Link>
               </li>
             </ul>
           </div>

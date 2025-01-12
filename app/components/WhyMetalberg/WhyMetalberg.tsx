@@ -5,7 +5,7 @@ import React from "react";
 
 const WhyMetalberg = () => {
   return (
-    <section className="bg-slate-300 pb-10 mt-6">
+    <section className="bg-slate-300 pb-10 px-4 mt-6">
       <h1 className="py-8 text-3xl font-bold text-center text-black">
         Why Choose MetalBerg?
       </h1>

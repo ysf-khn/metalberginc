@@ -32,7 +32,7 @@ const page = () => {
         {values.map((value, index) => (
           <div
             key={index}
-            className="aspect-square bg-black rounded-lg flex items-center justify-center p-4"
+            className="aspect-square bg-blue-950 rounded-lg flex items-center justify-center p-4"
           >
             <p className="text-white text-center font-bold text-2xl md:text-base">
               {value}

@@ -52,7 +52,7 @@ export default function Navbar() {
     { href: "/about-us", label: "About" },
     { href: "/#products", label: "Products" },
     { href: "/why-us", label: "Why Us" },
-    { href: "/faq", label: "FAQ" },
+    { href: "/faq", label: "FAQs" },
     { href: "/#contact", label: "Contact" },
   ];
 
