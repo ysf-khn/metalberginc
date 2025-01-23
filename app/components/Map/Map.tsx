@@ -14,7 +14,7 @@ const Map = () => {
           width="100%"
           height="100%"
           style={{ border: 0, borderRadius: "1rem" }}
-          //   @ts-ignore
+          //   @ts-expect-error
           allowFullScreen=""
           loading="lazy"
         ></iframe>
