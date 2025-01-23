@@ -2,6 +2,7 @@
 
 import { Footer } from "@/app/components/Footer/Footer";
 import Hero from "@/app/components/HeroSection/Hero";
+import Map from "@/app/components/Map/Map";
 import Products from "@/app/components/Products/Products";
 import Testimonials from "@/app/components/Testimonials/Testimonials";
 import WhyMetalberg from "@/app/components/WhyMetalberg/WhyMetalberg";
@@ -25,6 +26,7 @@ const Page = () => {
       <Products ref={productsRef} />
       <WhyMetalberg />
       <Testimonials />
+      <Map />
       <Footer />
     </main>
   );
